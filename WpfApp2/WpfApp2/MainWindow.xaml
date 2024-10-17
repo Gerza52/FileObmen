@@ -1,0 +1,11 @@
+﻿<Window>
+    <Grid>
+        <Button Content="Select File" Click="SelectFile_Click" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="FilePathTextBox" IsReadOnly="True" HorizontalAlignment="Left" Height="23" Margin="90,15,0,0" TextWrapping="Wrap" Text="Selected File Path" VerticalAlignment="Top" Width="360"/>
+        <Button Content="Send File" Click="SendFile_Click" HorizontalAlignment="Left" Margin="10,50,0,0" VerticalAlignment="Top"/>
+        <Button Content="Receive File" Click="ReceiveFile_Click" HorizontalAlignment="Left" Margin="100,50,0,0" VerticalAlignment="Top"/>
+        <ProgressBar x:Name="FileTransferProgressBar" HorizontalAlignment="Left" Height="23" Margin="10,80,0,0" VerticalAlignment="Top" Width="440"/>
+        <ListBox x:Name="SentFilesListBox" HorizontalAlignment="Left" Height="100" Margin="10,110,0,0" VerticalAlignment="Top" Width="210"/>
+        <ListBox x:Name="ReceivedFilesListBox" HorizontalAlignment="Left" Height="100" Margin="230,110,0,0" VerticalAlignment="Top" Width="210"/>
+    </Grid>
+</Window>
